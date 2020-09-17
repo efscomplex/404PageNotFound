@@ -20,11 +20,13 @@ function App() {
                https://github.com/efscomplex
             </a>
          </p>
-      </Credits>
+      </Credits> 
     </div>
   );
 }
+
 glob`.App { position: relative; }`
+
 const Credits = styled('div')`
    padding: 2rem;
    position: absolute;

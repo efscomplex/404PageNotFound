@@ -17,7 +17,6 @@ export function PageNotFound(){
       </Page>
    )
 }
-
 const Wrap = styled('div')`
    display: inline-flex;
    align-items: center;
@@ -60,8 +59,8 @@ const Page = styled('div')`
    display: flex;
    justify-content: center;
    align-items: center;
-
    background-color: #333;
+
    color: white;   
    * { line-height: 1em;}
 `
