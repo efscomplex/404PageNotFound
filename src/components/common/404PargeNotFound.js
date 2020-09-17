@@ -11,8 +11,8 @@ export function PageNotFound(){
                   <span className='page'>PAGE</span> 
                   <span className='not'>NOT</span>
                </div>
+               <span className='found'>found</span>
             </Wrap>
-            <span className='found'>found</span>
          </Text>
       </Page>
    )
@@ -38,6 +38,8 @@ const Wrap = styled('div')`
 const Text = styled('span')`
    text-transform: capitalize;
    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
    align-items: center;
    transform: translateY(-60%);
    .number {
@@ -53,14 +55,18 @@ const Text = styled('span')`
 `
 const Page = styled('div')`
    font-size: 2.35rem;
-
+   @media (max-width: 600px){
+      font-size: 1.35rem;
+   }
    height: 100vh;
-   with: 100vw;
+   width: 100%;
+
    display: flex;
    justify-content: center;
    align-items: center;
+   
    background-color: #333;
-
    color: white;   
+
    * { line-height: 1em;}
 `

@@ -1,6 +1,6 @@
 import React from 'react';
 import { PageNotFound } from './components/common/404PargeNotFound';
-import { setup, styled, glob } from 'goober'
+import { setup, styled } from 'goober'
 import './styles/indes.sass'
 
 setup(React.createElement)
@@ -24,9 +24,6 @@ function App() {
     </div>
   );
 }
-
-glob`.App { position: relative; }`
-
 const Credits = styled('div')`
    padding: 2rem;
    position: absolute;
